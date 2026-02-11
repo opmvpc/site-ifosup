@@ -1,0 +1,24 @@
+.glass-card {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 1.5rem;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.9), rgba(246, 251, 255, 0.8));
+  box-shadow: 0 25px 60px -35px rgba(12, 20, 41, 0.4);
+  backdrop-filter: blur(8px);
+}
+
+.footer-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #fff;
+  padding: 0.55rem 0.95rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-pill:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+}
