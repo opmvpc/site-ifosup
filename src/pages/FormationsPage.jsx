@@ -44,15 +44,15 @@ export default function FormationsPage() {
     <>
       <Seo
         title="Formations"
-        description="Catalogue complet IFOSUP: secondaire, superieur, langues et modules pour adultes en reprise d etudes."
+        description="Catalogue complet IFOSUP: secondaire, supérieur, langues et modules pour adultes en reprise d’études."
         path="/formations"
       />
 
       <section className="page-shell inner-hero reveal">
         <p className="eyebrow">Catalogue complet</p>
-        <h1>Toutes les formations IFOSUP, scannees et organisees par section</h1>
+        <h1>Toutes les formations IFOSUP, scannées et organisées par section</h1>
         <p>
-          Parcours longs, formations qualifiantes, langues, modules pratiques: retrouve ici l ensemble des options proposees et dirige-toi vers la section qui te correspond.
+          Parcours longs, formations qualifiantes, langues, modules pratiques: retrouve ici l’ensemble des options proposées et dirige-toi vers la section qui te correspond.
         </p>
       </section>
 
@@ -77,7 +77,7 @@ export default function FormationsPage() {
           <input
             id="formation-search"
             type="search"
-            placeholder="Ex: Bachelier, IA, Neerlandais, Comptabilite..."
+            placeholder="Ex: Bachelier, IA, Néerlandais, Comptabilité..."
             value={search}
             onChange={(event) => setSearch(event.target.value)}
           />
@@ -98,8 +98,8 @@ export default function FormationsPage() {
           ))
         ) : (
           <article className="glass empty-state">
-            <h2>Aucun resultat pour ta recherche</h2>
-            <p>Essaie un mot-cle plus court ou retire un filtre de section.</p>
+            <h2>Aucun résultat pour ta recherche</h2>
+            <p>Essaie un mot-clé plus court ou retire un filtre de section.</p>
           </article>
         )}
       </section>

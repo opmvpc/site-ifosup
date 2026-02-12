@@ -16,12 +16,12 @@ export default function ContactPage() {
           <p className="eyebrow">Contact</p>
           <h1>Parlons de ton projet de formation</h1>
           <p>
-            Une question sur un parcours, une inscription ou les horaires? L equipe IFOSUP te repond rapidement et t aide a choisir la meilleure voie.
+            Une question sur un parcours, une inscription ou les horaires? L’équipe IFOSUP te répond rapidement et t’aide à choisir la meilleure voie.
           </p>
 
           <dl className="contact-list">
             <div>
-              <dt>Telephone</dt>
+              <dt>Téléphone</dt>
               <dd>
                 <a href={site.phoneHref}>{site.phoneDisplay}</a>
               </dd>
@@ -44,8 +44,8 @@ export default function ContactPage() {
         </article>
 
         <figure className="hero-media reveal" style={{ animationDelay: '120ms' }}>
-          <img src={contactPhoto} alt="Accueil IFOSUP et equipe disponible" loading="lazy" />
-          <figcaption>Nous sommes a ton ecoute pour construire ton parcours.</figcaption>
+          <img src={contactPhoto} alt="Accueil IFOSUP et équipe disponible" loading="lazy" />
+          <figcaption>Nous sommes à ton écoute pour construire ton parcours.</figcaption>
         </figure>
       </section>
 
@@ -57,7 +57,7 @@ export default function ContactPage() {
               <li key={line}>{line}</li>
             ))}
           </ul>
-          <p className="small-note">Horaires susceptibles d adaptation en cours d annee. Verification conseillee avant de te deplacer.</p>
+          <p className="small-note">Horaires susceptibles d’adaptation en cours d’année. Vérification conseillée avant de te déplacer.</p>
         </article>
 
         <article className="glass reveal" style={{ animationDelay: '100ms' }}>

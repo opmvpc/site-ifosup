@@ -6,10 +6,10 @@ export default function Footer() {
   return (
     <footer className="site-footer" role="contentinfo">
       <div className="page-shell footer-grid">
-        <section aria-label="Identite IFOSUP">
+        <section aria-label="Identité IFOSUP">
           <img src={logoWhite} alt="IFOSUP Wavre" className="footer-logo" />
           <p className="footer-copy">
-            Ecole de promotion sociale officielle subventionnee par la Ville de Wavre.
+            École de promotion sociale officielle subventionnée par la Ville de Wavre.
           </p>
         </section>
 
@@ -20,7 +20,7 @@ export default function Footer() {
               Formations
             </Link>
             <Link to="/ecole" className="footer-pill">
-              Notre ecole
+              Notre école
             </Link>
             <Link to="/contact" className="footer-pill">
               Contact
@@ -28,8 +28,8 @@ export default function Footer() {
           </div>
         </section>
 
-        <section aria-label="Reseaux sociaux">
-          <h2 className="footer-title">Reseaux</h2>
+        <section aria-label="Réseaux sociaux">
+          <h2 className="footer-title">Réseaux</h2>
           <div className="footer-links">
             {site.socials.map((social) => (
               <a key={social.url} href={social.url} target="_blank" rel="noreferrer" className="footer-pill">
