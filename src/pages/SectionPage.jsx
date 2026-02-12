@@ -5,7 +5,7 @@ import { sectionMeta } from '../data/siteData';
 function slugLabel(slug) {
   const map = {
     secondaire: 'enseignement secondaire',
-    superieur: 'enseignement supérieur',
+    superieur: 'enseignement supÃ©rieur',
     langues: 'cours de langues',
     modules: 'modules divers',
   };
@@ -24,7 +24,7 @@ export default function SectionPage() {
     <>
       <Seo
         title={section.label}
-        description={`Programme ${slugLabel(section.slug)} IFOSUP Wavre: détails, débouchés et liste des cours.`}
+        description={`Programme ${slugLabel(section.slug)} IFOSUP Wavre: dÃ©tails, dÃ©bouchÃ©s et liste des cours.`}
         path={`/formations/${section.slug}`}
       />
 
@@ -34,7 +34,7 @@ export default function SectionPage() {
         </p>
         <h1>{section.hero}</h1>
         <p>
-          Choisis un parcours calibré pour la vie active avec une pédagogie orientée terrain, des groupes à taille humaine et un accompagnement de proximité.
+          Choisis un parcours calibrÃ© pour la vie active avec une pÃ©dagogie orientÃ©e terrain, des groupes Ã  taille humaine et un accompagnement de proximitÃ©.
         </p>
       </section>
 
@@ -51,21 +51,21 @@ export default function SectionPage() {
         <article className="glass reveal" style={{ animationDelay: '100ms' }}>
           <h2>Format des cours</h2>
           <p>
-            Les parcours IFOSUP sont structurés en unités modulaires et planifiés pour t’aider à avancer de façon réaliste, même avec une activité professionnelle.
+            Les parcours IFOSUP sont structurÃ©s en unitÃ©s modulaires et planifiÃ©s pour tâ€™aider Ã  avancer de faÃ§on rÃ©aliste, mÃªme avec une activitÃ© professionnelle.
           </p>
           <p>
-            Selon les programmes, les cours sont organisés en journée, en soirée, ou en combinaison flexible.
+            Selon les programmes, les cours sont organisÃ©s en journÃ©e, en soirÃ©e, ou en combinaison flexible.
           </p>
           <Link to="/contact" className="btn btn-secondary">
-            Vérifier les horaires avec l’équipe
+            VÃ©rifier les horaires avec lâ€™Ã©quipe
           </Link>
         </article>
       </section>
 
       <section className="page-shell section-stack" aria-labelledby="list-title">
         <div className="section-heading reveal">
-          <h2 id="list-title">Cours proposés dans cette section</h2>
-          <p>Catalogue recensé depuis les données publiques IFOSUP.</p>
+          <h2 id="list-title">Cours proposÃ©s dans cette section</h2>
+          <p>Catalogue recensÃ© depuis les donnÃ©es publiques IFOSUP.</p>
         </div>
 
         <div className="courses-grid">

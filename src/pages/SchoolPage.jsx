@@ -6,16 +6,16 @@ export default function SchoolPage() {
   return (
     <>
       <Seo
-        title="Notre école"
-        description="Découvre la mission IFOSUP Wavre: école de promotion sociale pour adultes, pédagogie concrète et culture de la réussite."
+        title="Notre Ã©cole"
+        description="DÃ©couvre la mission IFOSUP Wavre: Ã©cole de promotion sociale pour adultes, pÃ©dagogie concrÃ¨te et culture de la rÃ©ussite."
         path="/ecole"
       />
 
       <section className="page-shell inner-hero reveal">
-        <p className="eyebrow">Notre école</p>
-        <h1>Un établissement à taille humaine, tourné vers ta progression réelle</h1>
+        <p className="eyebrow">Notre Ã©cole</p>
+        <h1>Un Ã©tablissement Ã  taille humaine, tournÃ© vers ta progression rÃ©elle</h1>
         <p>
-          IFOSUP est une école de promotion sociale officielle. Notre mission: permettre à chaque adulte de renforcer ses compétences, trouver un emploi, évoluer ou se reconvertir.
+          IFOSUP est une Ã©cole de promotion sociale officielle. Notre mission: permettre Ã  chaque adulte de renforcer ses compÃ©tences, trouver un emploi, Ã©voluer ou se reconvertir.
         </p>
       </section>
 
@@ -30,7 +30,7 @@ export default function SchoolPage() {
 
       <section className="page-shell dual-grid">
         <article className="glass reveal">
-          <h2>Ce qui fait la différence IFOSUP</h2>
+          <h2>Ce qui fait la diffÃ©rence IFOSUP</h2>
           <ul className="check-grid">
             {valuePillars.map((value) => (
               <li key={value}>{value}</li>
@@ -41,18 +41,18 @@ export default function SchoolPage() {
         <article className="glass reveal" style={{ animationDelay: '100ms' }}>
           <h2>Pour qui?</h2>
           <p>
-            Pour les adultes en reprise d’études, les personnes en reconversion, celles qui veulent professionnaliser une passion ou accélérer leur employabilité.
+            Pour les adultes en reprise dâ€™Ã©tudes, les personnes en reconversion, celles qui veulent professionnaliser une passion ou accÃ©lÃ©rer leur employabilitÃ©.
           </p>
-          <h2>Comment démarrer?</h2>
+          <h2>Comment dÃ©marrer?</h2>
           <p>
-            Commence par identifier la section qui correspond à ton objectif. Ensuite, contacte l’équipe pour valider prérequis, rythme et calendrier d’inscription.
+            Commence par identifier la section qui correspond Ã  ton objectif. Ensuite, contacte lâ€™Ã©quipe pour valider prÃ©requis, rythme et calendrier dâ€™inscription.
           </p>
           <div className="hero-cta-row">
             <Link to="/formations" className="btn btn-primary">
               Choisir ma section
             </Link>
             <Link to="/contact" className="btn btn-secondary">
-              Planifier mon entrée
+              Planifier mon entrÃ©e
             </Link>
           </div>
         </article>

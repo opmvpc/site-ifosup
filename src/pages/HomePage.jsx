@@ -10,37 +10,37 @@ export default function HomePage() {
     <>
       <Seo
         title="Accueil"
-        description="Reprends tes études à IFOSUP Wavre: formations secondaires, bacheliers, BES, langues et modules professionnalisants."
+        description="Reprends tes Ã©tudes Ã  IFOSUP Wavre: formations secondaires, bacheliers, BES, langues et modules professionnalisants."
         path="/"
       />
 
       <section className="page-shell hero-grid">
         <article className="hero-panel reveal">
           <p className="eyebrow">IFOSUP WAVRE</p>
-          <h1>Ton nouveau départ professionnel commence ici.</h1>
+          <h1>Ton nouveau dÃ©part professionnel commence ici.</h1>
           <p>
-            École de promotion sociale à taille humaine, IFOSUP accompagne les adultes qui veulent évoluer, se réorienter ou valider un diplôme reconnu.
+            Ã‰cole de promotion sociale Ã  taille humaine, IFOSUP accompagne les adultes qui veulent Ã©voluer, se rÃ©orienter ou valider un diplÃ´me reconnu.
           </p>
           <div className="hero-cta-row">
             <Link to="/formations" className="btn btn-primary">
-              Découvrir les formations
+              DÃ©couvrir les formations
             </Link>
             <Link to="/contact" className="btn btn-secondary">
-              Parler à un conseiller
+              Parler Ã  un conseiller
             </Link>
           </div>
           <p className="hero-note">{campusInfo.enrollmentWindow}</p>
         </article>
 
         <figure className="hero-media reveal" style={{ animationDelay: '120ms' }}>
-          <img src={topPhoto} alt="Étudiants en formation à IFOSUP" loading="eager" />
+          <img src={topPhoto} alt="Ã‰tudiants en formation Ã  IFOSUP" loading="eager" />
           <figcaption>
-            Cours en journée ou en soirée, formats modulaires, approche métier.
+            Cours en journÃ©e ou en soirÃ©e, formats modulaires, approche mÃ©tier.
           </figcaption>
         </figure>
       </section>
 
-      <section className="page-shell stats-grid" aria-label="Chiffres clés IFOSUP">
+      <section className="page-shell stats-grid" aria-label="Chiffres clÃ©s IFOSUP">
         {globalStats.map((stat, index) => (
           <article className="glass metric reveal" style={{ animationDelay: `${index * 80}ms` }} key={stat.label}>
             <p className="metric-value">{stat.value}</p>
@@ -54,7 +54,7 @@ export default function HomePage() {
           <p className="eyebrow">Parcours</p>
           <h2 id="home-sections-title">4 univers de formation pour tous les profils</h2>
           <p>
-            Tu veux un diplôme long, une compétence directe, une reconversion ou une remise à niveau: IFOSUP te propose un parcours adapté et concret.
+            Tu veux un diplÃ´me long, une compÃ©tence directe, une reconversion ou une remise Ã  niveau: IFOSUP te propose un parcours adaptÃ© et concret.
           </p>
         </div>
         <div className="cards-4">
@@ -67,7 +67,7 @@ export default function HomePage() {
       <section className="page-shell dual-grid" aria-labelledby="home-values-title">
         <article className="glass reveal">
           <p className="eyebrow">Pourquoi nous choisir</p>
-          <h2 id="home-values-title">Une pédagogie orientée réussite et employabilité</h2>
+          <h2 id="home-values-title">Une pÃ©dagogie orientÃ©e rÃ©ussite et employabilitÃ©</h2>
           <ul className="check-grid">
             {valuePillars.map((pillar) => (
               <li key={pillar}>{pillar}</li>
@@ -79,7 +79,7 @@ export default function HomePage() {
         </article>
 
         <figure className="glass image-card reveal" style={{ animationDelay: '120ms' }}>
-          <img src={schoolPhoto} alt="Bâtiment et ambiance de l’école IFOSUP" loading="lazy" />
+          <img src={schoolPhoto} alt="BÃ¢timent et ambiance de lâ€™Ã©cole IFOSUP" loading="lazy" />
           <figcaption>
             {site.address}
             <br />
